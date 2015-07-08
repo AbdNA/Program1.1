@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Practice11
+{
+    class Program
+    {
+        public static void Main()
+        {
+            Console.Write("Введите первое число ");
+            float a = float.Parse(Console.ReadLine());
+            Console.Write("Введите второе число ");
+            float b = float.Parse(Console.ReadLine());
+            Console.WriteLine("Среднее арифметическое: " + 0.5 * (a + b));
+            Console.WriteLine("Среднее геометрическое: " + Math.Sqrt(a * b));
+            Console.ReadKey();
+        }
+    }
+}
